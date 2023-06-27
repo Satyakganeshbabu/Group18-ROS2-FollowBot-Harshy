@@ -1,0 +1,16 @@
+material harshy/color
+        {
+          receive_shadows off
+          technique
+          {
+            pass
+            {
+              texture_unit
+              {
+                texture mix.jpg
+                filtering anistropic
+                max_anisotropy 16
+              }
+            }
+          }
+        }
